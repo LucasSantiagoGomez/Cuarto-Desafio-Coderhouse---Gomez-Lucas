@@ -1,0 +1,1035 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+                /*MENU NAV HEADER*/
+.body{
+    background-image: url(../Imagenes/markus-spiske-vrbZVyX2k4I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;    
+}
+
+
+
+.header{
+    grid-area: header;
+}
+
+.header{
+    background-color: #042D00;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;   
+}
+
+.Logo{
+    height: 100px;
+    width: 130px;
+
+} 
+
+.Titulo{
+    display: flex;
+    
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    
+}
+
+.navtop{
+    grid-area: nav;
+}
+.navTop{  
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav__items{
+    display: flex;
+    list-style: none;   
+    
+}
+
+.navTopLinks{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.nav__items{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 10px;   
+}
+
+.nav__items__links{
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.nav__items__links:hover{
+    background-color: #745300;
+    transition: 0.5s;
+ }
+ 
+ .div__Buscador{
+    display: flex;
+    
+    align-items: center;
+    background-color: #745300;
+    height: 1px;
+    padding: 25px; 
+    border-radius: 40px;
+    margin-top: 30px;
+    
+    
+ }
+ .barraBuscador{
+    height: 30px;
+    width: 500px;
+    border: none;
+    background: none;
+    outline: none;
+    
+    font-size: 20px;
+    font-weight: bold;
+    
+ }
+
+ .botonBuscador{
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: none;
+ }
+
+
+ .ListaMenu{
+    display: flex;
+   
+ }
+                   /*FIN DEL MENU NAV HEADER*/
+
+
+
+                    /*MENU NAV MID*/
+
+
+aside{
+    grid-area: aside;
+}
+
+.navMid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2, auto);
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 350px;
+    column-gap: 1px;
+    row-gap: 50px;
+    
+  
+   align-items: center;
+}
+
+.div__Fila1{
+    background-color: #042D00;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+     
+    
+    
+}
+
+
+
+.div__fila__texto{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    
+    
+    
+    
+}
+
+.iconify{
+    display: flex;
+    color: #fff;
+    width: 157px;
+    height: 137px;
+    margin-top: 100px;
+    padding-left: 120px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /*****************FIN DEL MENU NAV MID***********************/
+
+
+
+                /*********************Pie de Pagina***********************/
+
+.footer{
+    grid-area:footer;
+}
+
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #042D00;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    
+
+     
+    
+}
+.Menu__Footer{
+    display: flex;
+    padding-right: 12px;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    
+      
+    
+}
+
+.Menu__Footer__ItemUno{
+    
+    padding: 8px 12px;
+    height: 30px;
+    border-radius: 30px;
+    
+}
+
+.Menu__Footer__ItemUno:hover{
+    background-color: #745300;
+    transition: 0.5s;
+}
+
+.Footer__Texto{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    
+}
+
+
+
+
+.Menu__FooterDos{
+    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    margin-right: 90px;
+    
+}
+
+.Menu__Footer__ItemDos{
+    
+    padding: 8px 12px;
+    height: 60px;
+    border-radius: 30px;
+
+}
+.Menu__Footer__ItemDos:hover{
+    background-color: #745300;
+    transition: 0.5s;
+}
+                       /*********************Fin del Pie de Pagina***********************/
+
+
+
+
+
+
+           /******************FIN DE INDEX.HTML**********************/
+
+
+
+
+
+
+
+
+
+
+
+ 
+           /*****************INICIO DE TIENDA.HTML***********************/
+
+
+.bodyTienda{
+    background-image: url(../Imagenes/victoria-strukovskaya-ORzT0ITh3YM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    width: 100%;
+    
+    
+}
+
+
+
+.TituloTienda{
+    background-color: #004603;
+    width: 196px;
+    height: 172px;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 30px;
+   
+    color: #fff;
+}
+
+.TituloProductos{
+    display: grid;
+   
+    background-color: #004603;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 30px;
+
+}
+
+.Enlaces{
+    display: grid;
+    grid-template-columns: repeat(4,400px);
+    grid-template-rows: repeat(4,);
+    margin-bottom: 70px;
+    margin-left: 100px;
+    list-style: none;
+}
+
+.Enlaces-Item{
+    background-color: #004603;
+    border-radius: 30px;
+    width: 350px;
+    height: 250px;
+    margin: 5px 40px;
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.Enlaces-Item-Texto{
+    color: #fff;
+    font-size: 25px;
+    
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+           /*******************FIN DE TIENDA.HTML*****************/
+
+
+
+
+
+
+
+
+
+
+
+
+             /*************MENU DE NAVEGACION DE ENLACES********************/
+
+.navTienda{
+    background-color: #042D00;
+    width: 50%;
+    height: 34px;
+    margin-top: 105px ;
+    margin-left: 500px;
+    border-radius: 30px; 
+}
+.nav_Tienda_Menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;   
+}
+.nav_Tienda_Menu_Item{
+    padding: 8px 12px;
+    border-radius: 30px;
+}
+.nav_Tienda_Menu_Item:hover{
+    background-color: #745300;
+    transition: 0.5s;
+}
+
+.nav_Tienda_Menu_Texto{
+    color: #fff;
+    text-decoration: none;
+    margin: 30px 15px; 
+}
+
+
+            /*******************FIN DE MENU DE NAVEGACION DE ENLACES*******************/
+
+
+   
+
+
+
+
+
+
+
+
+                /*******************INICIO UBICACION.HTML***************/
+.bodyUbicacion{
+    background-image: url(../Imagenes/victoria-strukovskaya-ORzT0ITh3YM-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.tituloUbicacion{
+    background-color: #004603;
+    width: 196px;
+    height: 172px;
+    color: #fff;
+    text-align: center;
+    margin-left: 60px;
+
+}
+
+
+
+
+
+.Mapa{
+    
+    width: 880px;
+    height: 644px;
+    margin-left: 500px;
+}
+
+
+    
+
+          /********************FIN DE UBICACION.HTML************************/
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+           /***********************INICIO CONTACTO.HTML**********************/
+
+ .bodyContacto{
+    background-image: url(../Imagenes/angele-kamp-Bd4L-A5XBJM-unsplash.jpG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    width: 100%;
+    
+    
+    
+ 
+ } 
+ 
+ 
+ .TituloContacto{
+    background-color: #004603;
+    width: 196px;
+    height: 172px;
+    color: #fff;
+    text-align: center;
+    margin-left: 60px;
+    border-radius: 20px;
+
+ }
+
+ 
+   
+ 
+ .article-contacto-sectionContacto{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: repeat(2,500px);
+    
+    list-style: none;
+    text-align: center;
+    margin-left: 400px;
+    
+
+ }
+
+ .article-contacto-section-itemContacto{
+    background-color: #004603;
+    border-radius: 30px;
+    width: 400px;
+    height: 350px;
+    margin: 8px 40px;
+    margin-top: 60px;
+    
+
+ }
+
+
+  .article-contacto-section-itemContactoFila2{
+    background-color: #004603;
+    border-radius: 30px;
+    width: 400px;
+    height: 350px;
+    margin: 8px 40px;
+    margin-top: 60px;
+ }
+
+
+.contactoTexto{
+    text-decoration: none;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 40px;
+    
+}
+.IconoEmail{
+    margin-left: 25px;
+}
+
+
+
+ 
+
+
+
+
+             /***********************FIN DE CONTACTO.HTML**********************/
+
+
+
+
+
+
+             
+
+ @media screen and (min-width: 320px) {
+       
+    .navMid{
+     display: grid;
+     grid-template-columns: repeat(1, auto);
+     grid-template-rows: repeat(4, auto);   
+     margin-top: 200px;
+     margin-bottom: 100px;
+     text-align: center;
+     margin-left: 100px;              
+     row-gap: 50px; 
+     align-items: center;
+                    
+            
+ }
+ .nav__items{
+     display: none;
+                    
+ }
+ .div__Buscador{
+     display: flex;
+     margin-right: 620px;
+  }
+            
+ .div__Fila1{
+     background-color: #042D00;
+     width: 400px;
+     height: 200px;
+    border-radius: 50px;
+   }
+            
+   .div__fila__texto{
+    text-decoration: none;
+    color: #fff;
+     font-family: sans-serif;
+     font-weight: bold;
+    font-size: 40px;
+}
+            
+.iconify{
+    display: flex;
+    color: #fff;
+     width: 130px;
+     height: 100px;
+     margin-top: 30px;
+     padding-left: 120px;  
+ }
+.div__Buscador{
+    display: flex;              
+    align-items: center;
+    background-color: #745300;
+    height: 1px;
+    padding: 25px; 
+    border-radius: 40px;
+     margin-top: 30px;
+}
+            
+ .barraBuscador{
+    display: flex;
+    height: 20px;
+    width: 300px;
+    border: none;
+    background: none;
+    outline: none;
+   font-size: 20px;
+    font-weight: bold;
+                    
+            }
+            
+            
+            
+            
+            
+            
+               
+                    
+            
+                
+                
+            
+               
+            }
+            
+            
+   @media screen and (min-width: 1200px){
+.navMid{
+     display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: repeat(2, auto);
+     margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 450px;
+     column-gap: 10px;
+     row-gap: 50px;
+                                      
+}
+
+ .nav__items{
+display: flex;
+                        
+}
+            
+  .div__Buscador{
+     display: flex;
+    margin-right: 250px;
+                    
+                    
+}
+            
+       .div__Fila1{
+        background-color: #042D00;
+         width: 400px;
+       height: 300px;
+      border-radius: 50px;
+}
+            
+    .div__fila__texto{
+       text-decoration: none;
+       color: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+       font-size: 40px;
+}
+            
+ .iconify{
+        display: flex;
+        color: #fff;
+       width: 157px;
+         height: 137px;
+         margin-top: 100px;
+        padding-left: 120px;  
+}
+            
+  .div__Buscador{
+      display: flex;      
+      align-items: center;
+    background-color: #745300;
+       height: 1px;
+       padding: 25px; 
+       border-radius: 40px;
+   margin-top: 30px;
+}
+                
+       .barraBuscador{
+       display: flex;
+      height: 30px;
+       width: 500px;
+      border: none;
+     background: none;
+    outline: none;
+                    
+    font-size: 20px;
+  font-weight: bold;
+                    
+ }
+            
+            
+            
+            
+                   
+                
+}
+
+
+
+/**********************MEDIA QUERIES TIENDA*****************/
+
+
+
+
+@media screen and (min-width: 320px) {
+
+    .Enlaces{
+        display: grid;
+        grid-template-columns: repeat(2,400px);
+        grid-template-rows: repeat(4,);
+        margin-bottom: 70px;
+        margin-left: 100px;
+        list-style: none;
+    }
+
+    .navTienda{
+        background-color: #042D00;
+        width: 600px;
+        height: 34px;
+        margin-top: 105px ;
+        margin-left: 50px;      
+        border-radius: 30px; 
+    }
+
+    .TituloTienda{
+        background-color: #004603;
+        width: 196px;
+        height: 80px;
+        color: #fff;
+        text-align: center;
+        margin-left: 10px;
+        border-radius: 30px;
+        margin-top: 30px;
+       
+        color: #fff;
+    }
+
+   
+
+
+
+    
+}
+
+
+
+
+@media screen and (min-width: 1200px){
+    .Enlaces{
+        display: grid;
+        grid-template-columns: repeat(4,400px);
+        grid-template-rows: repeat(4,);
+        margin-bottom: 70px;
+        margin-left: 100px;
+        list-style: none;
+    }
+
+    .navTienda{
+        background-color: #042D00;
+        width: 1000px;
+        height: 34px;
+        margin-top: 105px ;
+        margin-left: 500px;
+        border-radius: 30px; 
+    }
+
+    .TituloTienda{
+        background-color: #004603;
+        width: 196px;
+        height: 172px;
+        color: #fff;
+        text-align: center;
+        margin-left: 10px;
+        border-radius: 30px;
+       
+        color: #fff;
+    }
+
+   
+
+}
+
+
+
+
+
+
+/******MEDIA QUERIES DE CONTACTO********/
+
+@media screen and (min-width: 320px) {
+
+    .article-contacto-sectionContacto{
+        display: grid;
+        grid-template-columns: repeat(1,200px);
+        grid-template-rows: repeat(2,200px);
+        list-style: none;
+        text-align: center;
+        margin-left: 100px;
+        
+    
+     }
+    
+     .article-contacto-section-itemContacto{
+        background-color: #004603;
+        border-radius: 30px;
+        width: 400px;
+        height: 150px;
+        margin: 8px 40px;
+        margin-top: 60px;
+       
+        
+        
+    
+     }
+    
+    
+      .article-contacto-section-itemContactoFila{
+        background-color: #004603;
+        border-radius: 30px;
+        width: 400px;
+        height: 150px;
+        margin: 8px 40px;
+        margin-top: 60px;
+        
+     }
+
+   .Icono{
+       padding: 25px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .IconoEmail{
+        width: 80px;
+        height: 80px;
+              
+    }
+
+    .TituloContacto{
+        background-color: #004603;
+        width: 196px;
+        height: 80px;
+        color: #fff;
+        text-align: center;
+        margin-left: 60px;
+        border-radius: 20px;
+        margin-top: 10px;
+    
+     }
+
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+    .article-contacto-sectionContacto{
+        display: grid;
+        grid-template-columns: repeat(2,500px);
+        grid-template-rows: repeat(2,500px);
+        
+        list-style: none;
+        text-align: center;
+        margin-left: 400px;
+        
+    
+     }
+    
+     .article-contacto-section-itemContacto{
+        background-color: #004603;
+        border-radius: 30px;
+        width: 400px;
+        height: 350px;
+        margin: 8px 40px;
+        margin-top: 60px;
+        
+    
+     }
+    
+    
+      .article-contacto-section-itemContactoFila2{
+        background-color: #004603;
+        border-radius: 30px;
+        width: 400px;
+        height: 350px;
+        margin: 8px 40px;
+        margin-top: 60px;
+     }
+
+     .Icono{
+        width: 250px;
+        height: 250px;
+    }
+
+    .IconoEmail{
+        width: 260px;
+        height: 250px;
+              
+    }
+
+    .TituloContacto{
+        background-color: #004603;
+        width: 196px;
+        height: 172px;
+        color: #fff;
+        text-align: center;
+        margin-left: 60px;
+        border-radius: 20px;
+    
+     }
+
+
+
+
+
+}
+
+
+/*MEDIA QUERIES COMO LLEGAR.HTML****/
+
+@media screen and (min-width: 320px){
+
+    .tituloUbicacion{
+        background-color: #004603;
+        width: 196px;
+        height: 60px;
+        margin-top: 10px;
+        border-radius: 60px;
+        color: #fff;
+        text-align: center;
+        margin-left: 60px;
+    
+    }
+    
+    
+    
+    
+    
+    .Mapa{
+        
+        width: 500px;
+        height: 500px;
+        margin-left: 100px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        border-radius: 60px;
+        
+    }
+
+}
+
+
+
+@media screen and (min-width: 1200px){
+
+
+    .tituloUbicacion{
+        background-color: #004603;
+        width: 196px;
+        height: 172px;
+        color: #fff;
+        text-align: center;
+        margin-left: 60px;
+    
+    }
+    
+    
+    
+    
+    
+    .Mapa{
+        
+        width: 880px;
+        height: 644px;
+        margin-left: 500px;
+        margin-bottom: 200px;
+    }
+
+}
+
+
+

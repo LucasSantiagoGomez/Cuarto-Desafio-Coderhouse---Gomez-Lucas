@@ -145,6 +145,8 @@ aside{
 }
 
 .div__Fila1{
+    animation: fadeIn;
+    animation-duration: 10s;
     background-color: #042D00;
     width: 400px;
     height: 300px;
